@@ -1,8 +1,8 @@
-# Purpose
+# Purpose 🎯
 
 - Remaking ANA with Bootstrap 4 (v.6) markup and styling
 
-# Notes:
+# Notes 📝:
 
 - Current layout is just a working sample
 - Position of elements are not final, just example
