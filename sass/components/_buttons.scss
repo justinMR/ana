@@ -1,0 +1,22 @@
+//Button classes
+.btn-link {
+  text-decoration: none;
+  &:active,
+  &:focus {
+    text-decoration: inherit;
+    box-shadow: none;
+  }
+}
+.viewall {
+  text-transform: uppercase;
+  color: $tab-color;
+  &:hover {
+    background-color: $npg-ana-green;
+    color: #fff;
+  }
+}
+
+.button-styled-short {
+  padding: 10px 35px;
+  background-color: $npg-ana-green;
+}

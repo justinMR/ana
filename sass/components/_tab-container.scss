@@ -1,0 +1,13 @@
+.tab-container {
+  .list-group a.list-group-item {
+    color: $tab-color;
+
+    &:hover {
+      color: $npg-ana-green;
+    }
+  }
+
+  .holder p {
+    font-size: 14px;
+  }
+}

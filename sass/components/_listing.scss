@@ -1,0 +1,19 @@
+.listing {
+  font-family: $npg-font-stack-2 !important;
+  .media {
+    img {
+      width: 130px;
+    }
+
+    //Small screens only
+    @media (max-width: $breakpoint-large) {
+      display: block;
+      img {
+        float: left;
+      }
+      .media-body {
+        overflow: visible;
+      }
+    }
+  }
+}
